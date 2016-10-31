@@ -1,0 +1,43 @@
+{
+  "name": "tap-vibrant",
+  "version": "1.0.0",
+  "description": "Receives streaming TAP and outputs a colorful, indented representation.",
+  "main": "index.js",
+  "bin": {
+    "tap-vibrant": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "TAP",
+    "reporter",
+    "style",
+    "color",
+    "format",
+    "blocks",
+    "lines",
+    "pretty",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/node-tap-vibrant"
+  },
+  "author": {
+    "name": "Johnny Hauser",
+    "email": "johnnyhauser@gmail.com"
+  },
+  "license": "VOL",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "duplexer": "^0.1.1",
+    "figures": "^2.0.0",
+    "tap_parser": "^1.0.3",
+    "throo": "^1.0.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
+}
