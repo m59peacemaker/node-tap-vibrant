@@ -1,6 +1,6 @@
 {
   "name": "tap-vibrant",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Receives streaming TAP and outputs a colorful, indented representation.",
   "main": "index.js",
   "bin": {
