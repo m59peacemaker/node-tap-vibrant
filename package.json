@@ -1,6 +1,6 @@
 {
   "name": "tap-vibrant",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Receives streaming TAP and outputs a colorful, indented representation.",
   "main": "index.js",
   "bin": {
@@ -28,7 +28,7 @@
     "name": "Johnny Hauser",
     "email": "johnnyhauser@gmail.com"
   },
-  "license": "VOL",
+  "license": "CC0-1.0",
   "dependencies": {
     "chalk": "^1.1.3",
     "duplexer": "^0.1.1",
